@@ -22,7 +22,7 @@ public class City {
         return cityName;
     }
 
-    public String setCityName(String cityName) {
+    public void setCityName(String cityName) {
         this.cityName = cityName;
     }
 
@@ -30,15 +30,15 @@ public class City {
         return cityCode;
     }
 
-    public String setCityCode(String cityCode) {
+    public void setCityCode(String cityCode) {
         this.cityCode = cityCode;
     }
 
-    public String getProvinceId() {
+    public int getProvinceId() {
         return provinceId;
     }
 
-    public String setProvinceId(String provinceId) {
+    public void setProvinceId(int provinceId) {
         this.provinceId = provinceId;
     }
 }
